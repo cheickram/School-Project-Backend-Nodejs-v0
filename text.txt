@@ -1,0 +1,23 @@
+years: {
+		academicYear: {
+			students: [
+				{
+					type: mongoose.Types.ObjectId,
+					required: false, // true
+					// ref: 'Place',
+				},
+			],
+			teachers: [
+				{
+					type: mongoose.Types.ObjectId,
+					required: false, // true
+					// ref: 'Place',
+				},
+			],
+			classTeacher: {
+				type: mongoose.Types.ObjectId,
+				required: false, // true
+				// ref: 'Place',
+			},
+		},
+	},
